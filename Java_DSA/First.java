@@ -20,13 +20,13 @@ public class  First{
             num++;
         }
 
-        Scanner input = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
 
         System.out.print("Enter first number");
-        int a = input.nextInt();
+        int a = in.nextInt();
 
         System.out.print("Second numer");
-        int b = input.nextInt();
+        int b = in.nextInt();
 
         int sum = a + b;
         System.out.println("The sum = "+sum);
